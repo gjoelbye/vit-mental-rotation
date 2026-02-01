@@ -81,6 +81,20 @@ The code requires the following main dependencies:
 - Transformers (for CLIP and other models)
 - Matplotlib/Seaborn (for plotting)
 
+## Medium Article Code                                                                                                                                                                                               
+                                                                                                                                                                                                                  
+  For our medium article, we wrote some beginner-friendly code on extracting and visualizing layer embeddings, see the `medium_article/` folder. It contains a Jupyter notebook that demonstrates:                                            
+                                                                                                                                                                                                                  
+  - Extracting embeddings from all transformer layers using forward hooks                                                                                                                                         
+  - Visualizing rotation trajectories in PCA space                                                                                                                                                                
+                                                                                                                                                                                                                  
+  To get started:                                                                                                                                                                                                 
+  ```bash                                                                                                                                                                                                         
+  cd medium_article                                                                                                                                                                                               
+  uv sync                                                                                                                                                                                                         
+  uv run jupyter lab medium_article.ipynb
+  ```
+
 ## Notes
 
 This repository contains vision transformer experiments for mental rotation tasks. The code supports various model architectures and provides tools for embedding extraction, training, and result visualization.
